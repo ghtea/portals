@@ -6,6 +6,7 @@ module.exports = {
     'airbnb/hooks',
     'prettier',
   ],
+  plugins: ["import"],
   ignorePatterns: ['.eslintrc.js'],
   rules: {
     // formatting
@@ -53,6 +54,7 @@ module.exports = {
     ],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
     // a11y
     'jsx-a11y/label-has-associated-control': ['error', { depth: 2 }],
   },
